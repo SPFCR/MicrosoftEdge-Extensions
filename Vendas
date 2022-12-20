@@ -1,0 +1,9 @@
+"permissions": [
+  "https://*.shopee.com.br/*"
+],
+"content_scripts": [
+  {
+    "matches": ["https://*.shopee.com.br/*"],
+    "js": ["content.js"]
+  }
+]
